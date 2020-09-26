@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		026420A5E5615902378672AC /* Pods_GoodealBBMembershipTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C78C83C066011D9D12FD0D2D /* Pods_GoodealBBMembershipTests.framework */; };
+		862B6DC3202778A4E8BA32E8 /* Pods_GoodealBBMembershipUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F08B29422EE9A576432CC7 /* Pods_GoodealBBMembershipUITests.framework */; };
+		CB30033D2C86495668085DBE /* Pods_GoodealBBMembership.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DCC0AFD69F6F3A38EB4BD92 /* Pods_GoodealBBMembership.framework */; };
+		F56E825522E31DBF004F09E8 /* GoodealBB@1Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F56E825422E31DBF004F09E8 /* GoodealBB@1Logo.jpg */; };
+		F5725F9422FFCDDD00F61817 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5725F9322FFCDDD00F61817 /* PageViewController.swift */; };
+		F57F5E3123235E2600C2EAE9 /* vip.png in Resources */ = {isa = PBXBuildFile; fileRef = F57F5E3023235E2600C2EAE9 /* vip.png */; };
+		F57F5E3423236CB900C2EAE9 /* admin.png in Resources */ = {isa = PBXBuildFile; fileRef = F57F5E3223236CB800C2EAE9 /* admin.png */; };
+		F57F5E3523236CB900C2EAE9 /* cust.png in Resources */ = {isa = PBXBuildFile; fileRef = F57F5E3323236CB900C2EAE9 /* cust.png */; };
+		F5860D6623CABC0000C99A02 /* homevipimage.png in Resources */ = {isa = PBXBuildFile; fileRef = F5860D6523CABC0000C99A02 /* homevipimage.png */; };
+		F5AC266C22E30DB7005ABB8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AC266B22E30DB7005ABB8C /* AppDelegate.swift */; };
+		F5AC266E22E30DB7005ABB8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AC266D22E30DB7005ABB8C /* ViewController.swift */; };
+		F5AC267122E30DB7005ABB8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5AC266F22E30DB7005ABB8C /* Main.storyboard */; };
+		F5AC267322E30DBA005ABB8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5AC267222E30DBA005ABB8C /* Assets.xcassets */; };
+		F5AC267622E30DBA005ABB8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5AC267422E30DBA005ABB8C /* LaunchScreen.storyboard */; };
+		F5AC268122E30DBA005ABB8C /* GoodealBBMembershipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AC268022E30DBA005ABB8C /* GoodealBBMembershipTests.swift */; };
+		F5AC268C22E30DBA005ABB8C /* GoodealBBMembershipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AC268B22E30DBA005ABB8C /* GoodealBBMembershipUITests.swift */; };
+		F5E7546522E44837001D188D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5E7546422E44837001D188D /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5AC267D22E30DBA005ABB8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5AC266022E30DB6005ABB8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5AC266722E30DB6005ABB8C;
+			remoteInfo = GoodealBBMembership;
+		};
+		F5AC268822E30DBA005ABB8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5AC266022E30DB6005ABB8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5AC266722E30DB6005ABB8C;
+			remoteInfo = GoodealBBMembership;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DCC0AFD69F6F3A38EB4BD92 /* Pods_GoodealBBMembership.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoodealBBMembership.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16ACA1471473EEBC7EE28FC5 /* Pods-GoodealBBMembershipTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodealBBMembershipTests.debug.xcconfig"; path = "Target Support Files/Pods-GoodealBBMembershipTests/Pods-GoodealBBMembershipTests.debug.xcconfig"; sourceTree = "<group>"; };
+		31BFF22A22AF38254166E335 /* Pods-GoodealBBMembershipUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodealBBMembershipUITests.debug.xcconfig"; path = "Target Support Files/Pods-GoodealBBMembershipUITests/Pods-GoodealBBMembershipUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4757484872B27456C526E805 /* Pods-GoodealBBMembershipUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodealBBMembershipUITests.release.xcconfig"; path = "Target Support Files/Pods-GoodealBBMembershipUITests/Pods-GoodealBBMembershipUITests.release.xcconfig"; sourceTree = "<group>"; };
+		54F08B29422EE9A576432CC7 /* Pods_GoodealBBMembershipUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoodealBBMembershipUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89413C6EB6F18FD18C0C68B2 /* Pods-GoodealBBMembershipTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodealBBMembershipTests.release.xcconfig"; path = "Target Support Files/Pods-GoodealBBMembershipTests/Pods-GoodealBBMembershipTests.release.xcconfig"; sourceTree = "<group>"; };
+		9817E6BE26BE7E0A8E578ED7 /* Pods-GoodealBBMembership.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodealBBMembership.debug.xcconfig"; path = "Target Support Files/Pods-GoodealBBMembership/Pods-GoodealBBMembership.debug.xcconfig"; sourceTree = "<group>"; };
+		B70E57CA510900C53D4052E5 /* Pods-GoodealBBMembership.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodealBBMembership.release.xcconfig"; path = "Target Support Files/Pods-GoodealBBMembership/Pods-GoodealBBMembership.release.xcconfig"; sourceTree = "<group>"; };
+		C78C83C066011D9D12FD0D2D /* Pods_GoodealBBMembershipTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoodealBBMembershipTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F56E825422E31DBF004F09E8 /* GoodealBB@1Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "GoodealBB@1Logo.jpg"; path = "../../../Downloads/GoodealBB@1Logo.jpg"; sourceTree = "<group>"; };
+		F5725F9322FFCDDD00F61817 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		F57F5E3023235E2600C2EAE9 /* vip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vip.png; path = "../../../../../Volumes/VMware Shared Folders/VMShared/vip.png"; sourceTree = "<group>"; };
+		F57F5E3223236CB800C2EAE9 /* admin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = admin.png; path = "../../../../../Volumes/VMware Shared Folders/VMShared/admin.png"; sourceTree = "<group>"; };
+		F57F5E3323236CB900C2EAE9 /* cust.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cust.png; path = "../../../../../Volumes/VMware Shared Folders/VMShared/cust.png"; sourceTree = "<group>"; };
+		F5860D6523CABC0000C99A02 /* homevipimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = homevipimage.png; path = "../../../../../Volumes/VMware Shared Folders/VMShared/homevipimage.png"; sourceTree = "<group>"; };
+		F5AC266822E30DB7005ABB8C /* GoodealBBMembership.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodealBBMembership.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5AC266B22E30DB7005ABB8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5AC266D22E30DB7005ABB8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5AC267022E30DB7005ABB8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5AC267222E30DBA005ABB8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5AC267522E30DBA005ABB8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5AC267722E30DBA005ABB8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5AC267C22E30DBA005ABB8C /* GoodealBBMembershipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodealBBMembershipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5AC268022E30DBA005ABB8C /* GoodealBBMembershipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodealBBMembershipTests.swift; sourceTree = "<group>"; };
+		F5AC268222E30DBA005ABB8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5AC268722E30DBA005ABB8C /* GoodealBBMembershipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodealBBMembershipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5AC268B22E30DBA005ABB8C /* GoodealBBMembershipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodealBBMembershipUITests.swift; sourceTree = "<group>"; };
+		F5AC268D22E30DBA005ABB8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5E7546422E44837001D188D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5AC266522E30DB6005ABB8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB30033D2C86495668085DBE /* Pods_GoodealBBMembership.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5AC267922E30DBA005ABB8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				026420A5E5615902378672AC /* Pods_GoodealBBMembershipTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5AC268422E30DBA005ABB8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				862B6DC3202778A4E8BA32E8 /* Pods_GoodealBBMembershipUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043FA9C461B7D9DEF4FCD46C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DCC0AFD69F6F3A38EB4BD92 /* Pods_GoodealBBMembership.framework */,
+				C78C83C066011D9D12FD0D2D /* Pods_GoodealBBMembershipTests.framework */,
+				54F08B29422EE9A576432CC7 /* Pods_GoodealBBMembershipUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C105915BA5311B91CEED342 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9817E6BE26BE7E0A8E578ED7 /* Pods-GoodealBBMembership.debug.xcconfig */,
+				B70E57CA510900C53D4052E5 /* Pods-GoodealBBMembership.release.xcconfig */,
+				16ACA1471473EEBC7EE28FC5 /* Pods-GoodealBBMembershipTests.debug.xcconfig */,
+				89413C6EB6F18FD18C0C68B2 /* Pods-GoodealBBMembershipTests.release.xcconfig */,
+				31BFF22A22AF38254166E335 /* Pods-GoodealBBMembershipUITests.debug.xcconfig */,
+				4757484872B27456C526E805 /* Pods-GoodealBBMembershipUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F5AC265F22E30DB6005ABB8C = {
+			isa = PBXGroup;
+			children = (
+				F5AC266A22E30DB7005ABB8C /* GoodealBBMembership */,
+				F5AC267F22E30DBA005ABB8C /* GoodealBBMembershipTests */,
+				F5AC268A22E30DBA005ABB8C /* GoodealBBMembershipUITests */,
+				F5AC266922E30DB7005ABB8C /* Products */,
+				7C105915BA5311B91CEED342 /* Pods */,
+				043FA9C461B7D9DEF4FCD46C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F5AC266922E30DB7005ABB8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5AC266822E30DB7005ABB8C /* GoodealBBMembership.app */,
+				F5AC267C22E30DBA005ABB8C /* GoodealBBMembershipTests.xctest */,
+				F5AC268722E30DBA005ABB8C /* GoodealBBMembershipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5AC266A22E30DB7005ABB8C /* GoodealBBMembership */ = {
+			isa = PBXGroup;
+			children = (
+				F57F5E3023235E2600C2EAE9 /* vip.png */,
+				F5860D6523CABC0000C99A02 /* homevipimage.png */,
+				F57F5E3223236CB800C2EAE9 /* admin.png */,
+				F57F5E3323236CB900C2EAE9 /* cust.png */,
+				F56E825422E31DBF004F09E8 /* GoodealBB@1Logo.jpg */,
+				F5AC266B22E30DB7005ABB8C /* AppDelegate.swift */,
+				F5AC266D22E30DB7005ABB8C /* ViewController.swift */,
+				F5AC266F22E30DB7005ABB8C /* Main.storyboard */,
+				F5725F9322FFCDDD00F61817 /* PageViewController.swift */,
+				F5AC267222E30DBA005ABB8C /* Assets.xcassets */,
+				F5AC267422E30DBA005ABB8C /* LaunchScreen.storyboard */,
+				F5AC267722E30DBA005ABB8C /* Info.plist */,
+				F5E7546422E44837001D188D /* GoogleService-Info.plist */,
+			);
+			path = GoodealBBMembership;
+			sourceTree = "<group>";
+		};
+		F5AC267F22E30DBA005ABB8C /* GoodealBBMembershipTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5AC268022E30DBA005ABB8C /* GoodealBBMembershipTests.swift */,
+				F5AC268222E30DBA005ABB8C /* Info.plist */,
+			);
+			path = GoodealBBMembershipTests;
+			sourceTree = "<group>";
+		};
+		F5AC268A22E30DBA005ABB8C /* GoodealBBMembershipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5AC268B22E30DBA005ABB8C /* GoodealBBMembershipUITests.swift */,
+				F5AC268D22E30DBA005ABB8C /* Info.plist */,
+			);
+			path = GoodealBBMembershipUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5AC266722E30DB6005ABB8C /* GoodealBBMembership */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5AC269022E30DBA005ABB8C /* Build configuration list for PBXNativeTarget "GoodealBBMembership" */;
+			buildPhases = (
+				B388C93ABD43956EF7A21959 /* [CP] Check Pods Manifest.lock */,
+				F5AC266422E30DB6005ABB8C /* Sources */,
+				F5AC266522E30DB6005ABB8C /* Frameworks */,
+				F5AC266622E30DB6005ABB8C /* Resources */,
+				6C80944984DEAB91D6D856CE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoodealBBMembership;
+			productName = GoodealBBMembership;
+			productReference = F5AC266822E30DB7005ABB8C /* GoodealBBMembership.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5AC267B22E30DBA005ABB8C /* GoodealBBMembershipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5AC269322E30DBA005ABB8C /* Build configuration list for PBXNativeTarget "GoodealBBMembershipTests" */;
+			buildPhases = (
+				30C768D76E0ACF7DA10DF52D /* [CP] Check Pods Manifest.lock */,
+				F5AC267822E30DBA005ABB8C /* Sources */,
+				F5AC267922E30DBA005ABB8C /* Frameworks */,
+				F5AC267A22E30DBA005ABB8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5AC267E22E30DBA005ABB8C /* PBXTargetDependency */,
+			);
+			name = GoodealBBMembershipTests;
+			productName = GoodealBBMembershipTests;
+			productReference = F5AC267C22E30DBA005ABB8C /* GoodealBBMembershipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5AC268622E30DBA005ABB8C /* GoodealBBMembershipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5AC269622E30DBA005ABB8C /* Build configuration list for PBXNativeTarget "GoodealBBMembershipUITests" */;
+			buildPhases = (
+				8AFD33A452688F0C4F2216B3 /* [CP] Check Pods Manifest.lock */,
+				F5AC268322E30DBA005ABB8C /* Sources */,
+				F5AC268422E30DBA005ABB8C /* Frameworks */,
+				F5AC268522E30DBA005ABB8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5AC268922E30DBA005ABB8C /* PBXTargetDependency */,
+			);
+			name = GoodealBBMembershipUITests;
+			productName = GoodealBBMembershipUITests;
+			productReference = F5AC268722E30DBA005ABB8C /* GoodealBBMembershipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5AC266022E30DB6005ABB8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					regTV,
+				);
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = GoodealBB;
+				TargetAttributes = {
+					F5AC266722E30DB6005ABB8C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					F5AC267B22E30DBA005ABB8C = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = F5AC266722E30DB6005ABB8C;
+					};
+					F5AC268622E30DBA005ABB8C = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = F5AC266722E30DB6005ABB8C;
+					};
+				};
+			};
+			buildConfigurationList = F5AC266322E30DB6005ABB8C /* Build configuration list for PBXProject "GoodealBBMembership" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5AC265F22E30DB6005ABB8C;
+			productRefGroup = F5AC266922E30DB7005ABB8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5AC266722E30DB6005ABB8C /* GoodealBBMembership */,
+				F5AC267B22E30DBA005ABB8C /* GoodealBBMembershipTests */,
+				F5AC268622E30DBA005ABB8C /* GoodealBBMembershipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5AC266622E30DB6005ABB8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5AC267622E30DBA005ABB8C /* LaunchScreen.storyboard in Resources */,
+				F5AC267322E30DBA005ABB8C /* Assets.xcassets in Resources */,
+				F57F5E3523236CB900C2EAE9 /* cust.png in Resources */,
+				F5E7546522E44837001D188D /* GoogleService-Info.plist in Resources */,
+				F57F5E3423236CB900C2EAE9 /* admin.png in Resources */,
+				F57F5E3123235E2600C2EAE9 /* vip.png in Resources */,
+				F5860D6623CABC0000C99A02 /* homevipimage.png in Resources */,
+				F5AC267122E30DB7005ABB8C /* Main.storyboard in Resources */,
+				F56E825522E31DBF004F09E8 /* GoodealBB@1Logo.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5AC267A22E30DBA005ABB8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5AC268522E30DBA005ABB8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30C768D76E0ACF7DA10DF52D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoodealBBMembershipTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C80944984DEAB91D6D856CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoodealBBMembership/Pods-GoodealBBMembership-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoodealBBMembership/Pods-GoodealBBMembership-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoodealBBMembership/Pods-GoodealBBMembership-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AFD33A452688F0C4F2216B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoodealBBMembershipUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B388C93ABD43956EF7A21959 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoodealBBMembership-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5AC266422E30DB6005ABB8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5725F9422FFCDDD00F61817 /* PageViewController.swift in Sources */,
+				F5AC266E22E30DB7005ABB8C /* ViewController.swift in Sources */,
+				F5AC266C22E30DB7005ABB8C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5AC267822E30DBA005ABB8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5AC268122E30DBA005ABB8C /* GoodealBBMembershipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5AC268322E30DBA005ABB8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5AC268C22E30DBA005ABB8C /* GoodealBBMembershipUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5AC267E22E30DBA005ABB8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5AC266722E30DB6005ABB8C /* GoodealBBMembership */;
+			targetProxy = F5AC267D22E30DBA005ABB8C /* PBXContainerItemProxy */;
+		};
+		F5AC268922E30DBA005ABB8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5AC266722E30DB6005ABB8C /* GoodealBBMembership */;
+			targetProxy = F5AC268822E30DBA005ABB8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5AC266F22E30DB7005ABB8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5AC267022E30DB7005ABB8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5AC267422E30DBA005ABB8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5AC267522E30DBA005ABB8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5AC268E22E30DBA005ABB8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5AC268F22E30DBA005ABB8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5AC269122E30DBA005ABB8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9817E6BE26BE7E0A8E578ED7 /* Pods-GoodealBBMembership.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V6AT33L8Y8;
+				INFOPLIST_FILE = GoodealBBMembership/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goodealbb.GoodealBBMembership;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5AC269222E30DBA005ABB8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B70E57CA510900C53D4052E5 /* Pods-GoodealBBMembership.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V6AT33L8Y8;
+				INFOPLIST_FILE = GoodealBBMembership/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goodealbb.GoodealBBMembership;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F5AC269422E30DBA005ABB8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16ACA1471473EEBC7EE28FC5 /* Pods-GoodealBBMembershipTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V6AT33L8Y8;
+				INFOPLIST_FILE = GoodealBBMembershipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = goodealbb.GoodealBBMembershipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoodealBBMembership.app/GoodealBBMembership";
+			};
+			name = Debug;
+		};
+		F5AC269522E30DBA005ABB8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89413C6EB6F18FD18C0C68B2 /* Pods-GoodealBBMembershipTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V6AT33L8Y8;
+				INFOPLIST_FILE = GoodealBBMembershipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = goodealbb.GoodealBBMembershipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoodealBBMembership.app/GoodealBBMembership";
+			};
+			name = Release;
+		};
+		F5AC269722E30DBA005ABB8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31BFF22A22AF38254166E335 /* Pods-GoodealBBMembershipUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V6AT33L8Y8;
+				INFOPLIST_FILE = GoodealBBMembershipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = goodealbb.GoodealBBMembershipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoodealBBMembership;
+			};
+			name = Debug;
+		};
+		F5AC269822E30DBA005ABB8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4757484872B27456C526E805 /* Pods-GoodealBBMembershipUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V6AT33L8Y8;
+				INFOPLIST_FILE = GoodealBBMembershipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = goodealbb.GoodealBBMembershipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoodealBBMembership;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5AC266322E30DB6005ABB8C /* Build configuration list for PBXProject "GoodealBBMembership" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5AC268E22E30DBA005ABB8C /* Debug */,
+				F5AC268F22E30DBA005ABB8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5AC269022E30DBA005ABB8C /* Build configuration list for PBXNativeTarget "GoodealBBMembership" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5AC269122E30DBA005ABB8C /* Debug */,
+				F5AC269222E30DBA005ABB8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5AC269322E30DBA005ABB8C /* Build configuration list for PBXNativeTarget "GoodealBBMembershipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5AC269422E30DBA005ABB8C /* Debug */,
+				F5AC269522E30DBA005ABB8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5AC269622E30DBA005ABB8C /* Build configuration list for PBXNativeTarget "GoodealBBMembershipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5AC269722E30DBA005ABB8C /* Debug */,
+				F5AC269822E30DBA005ABB8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5AC266022E30DB6005ABB8C /* Project object */;
+}
